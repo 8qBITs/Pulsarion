@@ -1,0 +1,4 @@
+name: Pulsarion
+version: '${project.version}'
+main: si.jezen.pulsarion.Pulsarion
+api-version: 1.20

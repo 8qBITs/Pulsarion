@@ -1,0 +1,17 @@
+# Port used for web server.
+port: 8080
+# Web panel login settings.
+administration:
+  username: admin
+  password: password
+
+settings:
+  # donation goal in USD
+  donation-goal: 100
+  # Your paypal email which will receive payments.
+  paypal-email: admin@myserver.com
+  # EUR, USD, GBP, ..
+  paypal-currency: EUR
+  # When using reverse proxy to set a domain name for the site
+  # port won't be required.
+  website-url: http://<your-server-ip>:3000

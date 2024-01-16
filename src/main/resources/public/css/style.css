@@ -1,0 +1,25 @@
+/* style.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-gap: 10px; /* Spacing between cards */
+}
+
+.grid-item {
+    background-color: #f1f1f1; /* Card background color */
+    border: 1px solid #ccc; /* Card border */
+    border-radius: 5px; /* Rounded corners for card */
+    padding: 10px; /* Padding inside card */
+    text-align: center; /* Centering text */
+}
+
+.grid-item img {
+    max-width: 100%; /* Ensure image doesn't overflow the card */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ccc; /* Line between image and text */
+}
+
+.product-name {
+    margin-top: 10px; /* Space between image and product name */
+    font-weight: bold; /* Make product name bold */
+}
